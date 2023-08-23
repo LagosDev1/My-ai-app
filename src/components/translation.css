@@ -1,0 +1,20 @@
+.action-btn{
+    height: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgb(9, 75, 105);;
+    font-weight: bold;
+    background-color: rgb(211, 211, 211);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+  }
+
+.action-btn:hover{
+  background-color:transparent;
+  color: aliceblue;
+  border-radius: 0px;
+  transition: 0.5s;
+  
+}

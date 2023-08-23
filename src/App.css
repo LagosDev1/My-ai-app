@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  
+}
+
+.grid-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 24px;
+    background: rgb(1, 70, 102);
+    box-shadow: inset 2px 2px 2px #a1a1a1,
+                inset -1px -1px 1px #ffffff;
+}
+
+.grid-child{
+  /* border: 1px solid whitesmoke; */
+  /* border-radius: 15px; */
+  padding: 30px;
+  margin: 10px;
+  border-radius: 24px;
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #a1a1a1,
+              inset -5px -5px 10  px #ffffff;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.grid-child:hover{
+  background-color: whitesmoke;
+  transform: scale(1.03);
+  box-shadow: 10 15 50px 2px rgba(0,0,0,0.1);
+  border-radius: 0;
+  color: rgb(9, 75, 105);
+  transition: 0.5s;
+  cursor: pointer;
+  }
+
+  
+
+
+
+.grid-child h3{
+    font-weight: 700;
+}
+
+.grid-child p{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.text-area{
+  font-size: x-large;
+  border: none;
+}
+
+.action-btn{
+    width: 200;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(9, 75, 105);;
+    background-color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 5px;
+    border-color: rgb(10, 10, 10);
+  }
+
+.action-btn:hover{
+  background-color:transparent;
+  color: aliceblue;
+  
+}
