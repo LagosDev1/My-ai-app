@@ -7,7 +7,7 @@ function Translation({ doStuff, setInput, result }) {
     <div>
       <h1>ASK YOUR QUESTION</h1>
       <textarea className='text-area' 
-      cols={40} 
+      cols={30} 
       rows={(10)} 
       onChange={(e) => setInput(e.target.value)}>
       </textarea>
