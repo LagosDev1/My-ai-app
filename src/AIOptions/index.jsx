@@ -20,7 +20,7 @@ export const arrayItems = [
         description: "Correct your sentences to correct English.",
     },
     {
-        name: "Summarize for a 2nd grader",
+        name: "Summary for a 2nd grader",
         id: "summary",
         description: "Translates difficult text into simpler concepts.",
     },
