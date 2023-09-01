@@ -27,7 +27,7 @@ export const arrayItems = [
     {
         name: "English to other languages",
         id: "translate",
-        description: "Translates English text into French, Spanish, Greece, etc.",
+        description: "Translates English text into French, Spanish, chinese, etc.",
     },
     {
         name: "Explain code",
