@@ -5,7 +5,7 @@ function Translation({ doStuff, setInput, result }) {
   
   return (
     <div>
-      <h1>ASK YOUR QUESTION</h1>
+      <h1>ASK QUESTION</h1>
       <textarea className='text-area' 
       cols={30} 
       rows={(10)} 
