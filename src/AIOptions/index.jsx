@@ -15,7 +15,7 @@ export const arrayItems = [
     },
 
     {
-        name: "Grammer Correction",
+        name: "Grammers Correction",
         id: "grammerCorrection",
         description: "Correct your sentences to correct English.",
     },
