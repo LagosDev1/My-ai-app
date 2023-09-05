@@ -4,7 +4,7 @@ import React from 'react'
 export default function OptionSelection({arrayItems, selectOption}) {
   return (
     <div>
-      <h1 className='heading'>AI APP</h1>
+      <h1 className='heading'> My AI APP</h1>
 
       <div className='grid-main'>
         {arrayItems.map((item) => {
